@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block extra_css %}
+<link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
+<link href="/static/css/select2-bootstrap.min.css" rel="stylesheet" />
+{% endblock %}
+
+{% block content %}
+<header>
+	<section class="marquee">
+		<!-- Main Image Drop Window -->
+		<div class="container-fluid" name="photo-container">
+			<form id="drop" class="dropzone previews-container" action="/classify">
+				<div class="dz-message text-center panel-transparent-text">
+					<h4 class="panel-transparent-text">Click or Drag<br>an image here<br>to be sifted!</h4>
+				</div>
+			</form>
+		</div>
+	</section>
+	<!-- Stats Window -->
+	<aside>
+		<div id="divpicinfo" class="metadata" ></div>
+	</aside>
+</header>
+{% endblock %}
+
+{% block extra_js %}
+<script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/min/dropzone.min.js"></script>
+<script src="/static/js/custom.js"></script>
+<script src="/static/js/circle-progress.js"></script>
+{% endblock %}

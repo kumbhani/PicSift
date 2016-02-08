@@ -1,0 +1,2284 @@
+2016-02-04 23:27:42,815 CRIT Set uid to user 0
+2016-02-04 23:27:42,816 INFO supervisord started with pid 7075
+2016-02-04 23:27:43,818 INFO spawned: 'myserver' with pid 7078
+2016-02-04 23:27:43,894 DEBG 'myserver' stderr output:
+2016-02-04 23:27:43 [7078] [INFO] Starting gunicorn 17.5
+2016-02-04 23:27:43 [7078] [INFO] Listening at: http://0.0.0.0:80 (7078)
+2016-02-04 23:27:43 [7078] [INFO] Using worker: sync
+
+2016-02-04 23:27:43,895 DEBG 'myserver' stderr output:
+2016-02-04 23:27:43 [7083] [INFO] Booting worker with pid: 7083
+
+2016-02-04 23:27:43,911 DEBG 'myserver' stderr output:
+2016-02-04 23:27:43 [7084] [INFO] Booting worker with pid: 7084
+
+2016-02-04 23:27:43,960 DEBG 'myserver' stderr output:
+2016-02-04 23:27:43 [7086] [INFO] Booting worker with pid: 7086
+
+2016-02-04 23:27:43,993 DEBG 'myserver' stderr output:
+2016-02-04 23:27:43 [7088] [INFO] Booting worker with pid: 7088
+
+2016-02-04 23:27:44,994 INFO success: myserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-02-04 23:30:40,487 WARN received SIGINT indicating exit request
+2016-02-04 23:30:40,487 DEBG killing myserver (pid 7078) with signal SIGTERM
+2016-02-04 23:30:40,488 INFO waiting for myserver to die
+2016-02-04 23:30:40,502 DEBG 'myserver' stderr output:
+2016-02-04 23:30:40 [7078] [INFO] Handling signal: term
+2016-02-04 23:30:40 [7088] [INFO] Worker exiting (pid: 7088)
+2016-02-04 23:30:40 [7083] [INFO] Worker exiting (pid: 7083)
+2016-02-04 23:30:40 [7084] [INFO] Worker exiting (pid: 7084)
+
+2016-02-04 23:30:40,503 DEBG 'myserver' stdout output:
+<type 'unicode'>
+
+2016-02-04 23:30:40,506 DEBG 'myserver' stderr output:
+2016-02-04 23:30:40 [7086] [INFO] Worker exiting (pid: 7086)
+
+2016-02-04 23:30:40,506 DEBG 'myserver' stdout output:
+<type 'unicode'>
+
+2016-02-04 23:30:40,614 DEBG 'myserver' stderr output:
+Exception 
+2016-02-04 23:30:40,614 DEBG 'myserver' stderr output:
+KeyError
+2016-02-04 23:30:40,614 DEBG 'myserver' stderr output:
+: 
+2016-02-04 23:30:40,614 DEBG 'myserver' stderr output:
+KeyError(139873927272256,)
+2016-02-04 23:30:40,615 DEBG 'myserver' stderr output:
+ in 
+2016-02-04 23:30:40,615 DEBG 'myserver' stderr output:
+<module 'threading' from '/usr/lib/python2.7/threading.pyc'>
+2016-02-04 23:30:40,615 DEBG 'myserver' stderr output:
+ ignored
+
+2016-02-04 23:30:40,626 DEBG 'myserver' stderr output:
+2016-02-04 23:30:40 [7078] [INFO] Shutting down: Master
+
+2016-02-04 23:30:40,629 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 139870269164432 for <Subprocess at 139870269163784 with name myserver in state STOPPING> (stderr)>
+2016-02-04 23:30:40,629 DEBG fd 6 closed, stopped monitoring <POutputDispatcher at 139870269164216 for <Subprocess at 139870269163784 with name myserver in state STOPPING> (stdout)>
+2016-02-04 23:30:40,629 INFO stopped: myserver (exit status 0)
+2016-02-04 23:30:40,629 DEBG received SIGCLD indicating a child quit
+2016-02-04 23:56:04,564 CRIT Set uid to user 0
+2016-02-04 23:56:04,565 INFO supervisord started with pid 7495
+2016-02-04 23:56:05,567 INFO spawned: 'myserver' with pid 7498
+2016-02-04 23:56:05,644 DEBG 'myserver' stderr output:
+2016-02-04 23:56:05 [7498] [INFO] Starting gunicorn 17.5
+2016-02-04 23:56:05 [7498] [INFO] Listening at: http://0.0.0.0:80 (7498)
+2016-02-04 23:56:05 [7498] [INFO] Using worker: sync
+
+2016-02-04 23:56:05,645 DEBG 'myserver' stderr output:
+2016-02-04 23:56:05 [7503] [INFO] Booting worker with pid: 7503
+
+2016-02-04 23:56:05,675 DEBG 'myserver' stderr output:
+2016-02-04 23:56:05 [7504] [INFO] Booting worker with pid: 7504
+
+2016-02-04 23:56:05,687 DEBG 'myserver' stderr output:
+2016-02-04 23:56:05 [7505] [INFO] Booting worker with pid: 7505
+
+2016-02-04 23:56:05,767 DEBG 'myserver' stderr output:
+2016-02-04 23:56:05 [7508] [INFO] Booting worker with pid: 7508
+
+2016-02-04 23:56:06,768 INFO success: myserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-02-04 23:58:38,963 DEBG 'myserver' stderr output:
+2016-02-04 23:58:38 [7498] [CRITICAL] WORKER TIMEOUT (pid:7505)
+
+2016-02-04 23:58:38,964 DEBG 'myserver' stderr output:
+2016-02-04 23:58:38 [7498] [CRITICAL] WORKER TIMEOUT (pid:7505)
+
+2016-02-04 23:58:38,965 DEBG 'myserver' stderr output:
+2016-02-04 23:58:38 [7528] [INFO] Booting worker with pid: 7528
+
+2016-02-05 00:01:37,097 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 00:01:37,097 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 00:03:32,403 DEBG 'myserver' stderr output:
+2016-02-05 00:03:32 [7498] [CRITICAL] WORKER TIMEOUT (pid:7504)
+
+2016-02-05 00:03:32,407 DEBG 'myserver' stderr output:
+2016-02-05 00:03:32 [7498] [CRITICAL] WORKER TIMEOUT (pid:7528)
+
+2016-02-05 00:03:32,414 DEBG 'myserver' stderr output:
+2016-02-05 00:03:32 [7498] [CRITICAL] WORKER TIMEOUT (pid:7508)
+2016-02-05 00:03:32 [7498] [CRITICAL] WORKER TIMEOUT (pid:7503)
+
+2016-02-05 00:03:32,415 DEBG 'myserver' stderr output:
+2016-02-05 00:03:32 [7498] [CRITICAL] WORKER TIMEOUT (pid:7528)
+
+2016-02-05 00:03:32,417 DEBG 'myserver' stderr output:
+2016-02-05 00:03:32 [7533] [INFO] Booting worker with pid: 7533
+
+2016-02-05 00:03:32,419 DEBG 'myserver' stderr output:
+2016-02-05 00:03:32 [7534] [INFO] Booting worker with pid: 7534
+
+2016-02-05 00:03:32,439 DEBG 'myserver' stderr output:
+2016-02-05 00:03:32 [7535] [INFO] Booting worker with pid: 7535
+
+2016-02-05 00:03:32,475 DEBG 'myserver' stderr output:
+2016-02-05 00:03:32 [7536] [INFO] Booting worker with pid: 7536
+
+2016-02-05 00:03:42,225 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 00:03:42,225 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 00:06:25,722 DEBG 'myserver' stderr output:
+2016-02-05 00:06:25 [7498] [CRITICAL] WORKER TIMEOUT (pid:7536)
+
+2016-02-05 00:06:25,726 DEBG 'myserver' stderr output:
+2016-02-05 00:06:25 [7498] [CRITICAL] WORKER TIMEOUT (pid:7533)
+
+2016-02-05 00:06:25,733 DEBG 'myserver' stderr output:
+2016-02-05 00:06:25 [7498] [CRITICAL] WORKER TIMEOUT (pid:7534)
+2016-02-05 00:06:25 [7498] [CRITICAL] WORKER TIMEOUT (pid:7535)
+
+2016-02-05 00:06:25,734 DEBG 'myserver' stderr output:
+2016-02-05 00:06:25 [7498] [CRITICAL] WORKER TIMEOUT (pid:7533)
+2016-02-05 00:06:25 [7498] [CRITICAL] WORKER TIMEOUT (pid:7534)
+
+2016-02-05 00:06:25,735 DEBG 'myserver' stderr output:
+2016-02-05 00:06:25 [7549] [INFO] Booting worker with pid: 7549
+
+2016-02-05 00:06:25,755 DEBG 'myserver' stderr output:
+2016-02-05 00:06:25 [7550] [INFO] Booting worker with pid: 7550
+
+2016-02-05 00:06:25,807 DEBG 'myserver' stderr output:
+2016-02-05 00:06:25 [7553] [INFO] Booting worker with pid: 7553
+
+2016-02-05 00:06:25,899 DEBG 'myserver' stderr output:
+2016-02-05 00:06:25 [7556] [INFO] Booting worker with pid: 7556
+
+2016-02-05 00:06:37,990 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 00:06:37,991 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 02:31:37,473 DEBG 'myserver' stderr output:
+2016-02-05 02:31:37 [7498] [CRITICAL] WORKER TIMEOUT (pid:7549)
+
+2016-02-05 02:31:37,475 DEBG 'myserver' stderr output:
+2016-02-05 02:31:37 [7498] [CRITICAL] WORKER TIMEOUT (pid:7549)
+
+2016-02-05 02:31:37,476 DEBG 'myserver' stderr output:
+2016-02-05 02:31:37 [9922] [INFO] Booting worker with pid: 9922
+
+2016-02-05 02:35:43,254 WARN received SIGINT indicating exit request
+2016-02-05 02:35:43,254 DEBG killing myserver (pid 7498) with signal SIGTERM
+2016-02-05 02:35:43,254 INFO waiting for myserver to die
+2016-02-05 02:35:43,266 DEBG 'myserver' stderr output:
+2016-02-05 02:35:43 [7498] [INFO] Handling signal: term
+2016-02-05 02:35:43 [7553] [INFO] Worker exiting (pid: 7553)
+2016-02-05 02:35:43 [7550] [INFO] Worker exiting (pid: 7550)
+2016-02-05 02:35:43 [7556] [INFO] Worker exiting (pid: 7556)
+
+2016-02-05 02:35:43,267 DEBG 'myserver' stdout output:
+LogisticRegression(C=0.15, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+<type 'unicode'>
+LogisticRegression(C=0.15, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+LogisticRegression(C=0.15, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+2016-02-05 02:35:43,270 DEBG 'myserver' stderr output:
+2016-02-05 02:35:43 [9922] [INFO] Worker exiting (pid: 9922)
+
+2016-02-05 02:35:43,270 DEBG 'myserver' stdout output:
+LogisticRegression(C=0.15, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+2016-02-05 02:35:43,382 DEBG 'myserver' stderr output:
+2016-02-05 02:35:43 [7498] [INFO] Shutting down: Master
+
+2016-02-05 02:35:43,388 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 139816408185744 for <Subprocess at 139816408185096 with name myserver in state STOPPING> (stderr)>
+2016-02-05 02:35:43,388 DEBG fd 6 closed, stopped monitoring <POutputDispatcher at 139816408185528 for <Subprocess at 139816408185096 with name myserver in state STOPPING> (stdout)>
+2016-02-05 02:35:43,388 INFO stopped: myserver (exit status 0)
+2016-02-05 02:35:43,388 DEBG received SIGCLD indicating a child quit
+2016-02-05 03:50:32,869 CRIT Set uid to user 0
+2016-02-05 03:50:32,879 INFO daemonizing the supervisord process
+2016-02-05 03:50:32,884 INFO supervisord started with pid 10151
+2016-02-05 03:50:33,886 INFO spawned: 'myserver' with pid 10152
+2016-02-05 03:50:34,000 DEBG 'myserver' stderr output:
+2016-02-05 03:50:33 [10152] [INFO] Starting gunicorn 17.5
+2016-02-05 03:50:34 [10152] [INFO] Listening at: http://0.0.0.0:80 (10152)
+2016-02-05 03:50:34 [10152] [INFO] Using worker: sync
+
+2016-02-05 03:50:34,001 DEBG 'myserver' stderr output:
+2016-02-05 03:50:34 [10157] [INFO] Booting worker with pid: 10157
+
+2016-02-05 03:50:34,031 DEBG 'myserver' stderr output:
+2016-02-05 03:50:34 [10158] [INFO] Booting worker with pid: 10158
+
+2016-02-05 03:50:34,127 DEBG 'myserver' stderr output:
+2016-02-05 03:50:34 [10163] [INFO] Booting worker with pid: 10163
+
+2016-02-05 03:50:34,227 DEBG 'myserver' stderr output:
+2016-02-05 03:50:34 [10164] [INFO] Booting worker with pid: 10164
+
+2016-02-05 03:50:35,228 INFO success: myserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-02-05 14:33:06,098 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:33:06,099 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:44:08,799 DEBG 'myserver' stderr output:
+2016-02-05 14:44:08 [10152] [CRITICAL] WORKER TIMEOUT (pid:10163)
+
+2016-02-05 14:44:08,801 DEBG 'myserver' stderr output:
+2016-02-05 14:44:08 [10152] [CRITICAL] WORKER TIMEOUT (pid:10164)
+
+2016-02-05 14:44:08,804 DEBG 'myserver' stderr output:
+2016-02-05 14:44:08 [10152] [CRITICAL] WORKER TIMEOUT (pid:10157)
+
+2016-02-05 14:44:08,808 DEBG 'myserver' stderr output:
+2016-02-05 14:44:08 [10152] [CRITICAL] WORKER TIMEOUT (pid:10158)
+
+2016-02-05 14:44:08,813 DEBG 'myserver' stderr output:
+2016-02-05 14:44:08 [10986] [INFO] Booting worker with pid: 10986
+
+2016-02-05 14:44:08,903 DEBG 'myserver' stderr output:
+2016-02-05 14:44:08 [10989] [INFO] Booting worker with pid: 10989
+
+2016-02-05 14:44:08,987 DEBG 'myserver' stderr output:
+2016-02-05 14:44:08 [10992] [INFO] Booting worker with pid: 10992
+
+2016-02-05 14:44:09,031 DEBG 'myserver' stderr output:
+2016-02-05 14:44:09 [10993] [INFO] Booting worker with pid: 10993
+
+2016-02-05 14:44:10,274 DEBG 'myserver' stderr output:
+2016-02-05 14:44:10 [10986] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+2016-02-05 14:44:10 [10986] [INFO] Worker exiting (pid: 10986)
+
+2016-02-05 14:44:10,274 DEBG 'myserver' stdout output:
+LogisticRegression(C=0.15, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+2016-02-05 14:44:10,382 DEBG 'myserver' stderr output:
+Exception 
+2016-02-05 14:44:10,394 DEBG 'myserver' stderr output:
+TypeError
+2016-02-05 14:44:10,394 DEBG 'myserver' stderr output:
+: 
+2016-02-05 14:44:10,394 DEBG 'myserver' stderr output:
+TypeError("'NoneType' object is not callable",)
+2016-02-05 14:44:10,394 DEBG 'myserver' stderr output:
+ in 
+2016-02-05 14:44:10,394 DEBG 'myserver' stderr output:
+<bound method UmfpackContext.new_del of <scipy.sparse.linalg.dsolve.umfpack.umfpack.UmfpackContext object at 0x7faad9188b50>>
+2016-02-05 14:44:10,395 DEBG 'myserver' stderr output:
+ ignored
+
+2016-02-05 14:44:10,571 DEBG 'myserver' stderr output:
+2016-02-05 14:44:10 [10989] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+
+2016-02-05 14:44:10,574 DEBG 'myserver' stderr output:
+2016-02-05 14:44:10 [10989] [INFO] Worker exiting (pid: 10989)
+
+2016-02-05 14:44:10,574 DEBG 'myserver' stdout output:
+LogisticRegression(C=0.15, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+2016-02-05 14:44:10,699 DEBG 'myserver' stderr output:
+2016-02-05 14:44:10 [10992] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+
+2016-02-05 14:44:10,699 DEBG 'myserver' stderr output:
+2016-02-05 14:44:10 [10992] [INFO] Worker exiting (pid: 10992)
+
+2016-02-05 14:44:10,699 DEBG 'myserver' stdout output:
+LogisticRegression(C=0.15, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+2016-02-05 14:44:10,746 DEBG 'myserver' stderr output:
+2016-02-05 14:44:10 [10993] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+
+2016-02-05 14:44:10,746 DEBG 'myserver' stderr output:
+2016-02-05 14:44:10 [10993] [INFO] Worker exiting (pid: 10993)
+
+2016-02-05 14:44:10,747 DEBG 'myserver' stdout output:
+LogisticRegression(C=0.15, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+2016-02-05 14:44:10,840 DEBG 'myserver' stderr output:
+Exception 
+2016-02-05 14:44:10,840 DEBG 'myserver' stderr output:
+TypeError
+2016-02-05 14:44:10,840 DEBG 'myserver' stderr output:
+: 
+2016-02-05 14:44:10,840 DEBG 'myserver' stderr output:
+TypeError("'NoneType' object is not callable",)
+2016-02-05 14:44:10,840 DEBG 'myserver' stderr output:
+ in 
+2016-02-05 14:44:11,054 DEBG 'myserver' stderr output:
+2016-02-05 14:44:11 [10152] [INFO] Shutting down: Master
+2016-02-05 14:44:11 [10152] [INFO] Reason: Worker failed to boot.
+
+2016-02-05 14:44:11,059 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 139965339007816 for <Subprocess at 139965339007168 with name myserver in state RUNNING> (stderr)>
+2016-02-05 14:44:11,059 DEBG fd 6 closed, stopped monitoring <POutputDispatcher at 139965339007600 for <Subprocess at 139965339007168 with name myserver in state RUNNING> (stdout)>
+2016-02-05 14:44:11,059 INFO exited: myserver (exit status 3; not expected)
+2016-02-05 14:44:11,060 DEBG received SIGCLD indicating a child quit
+2016-02-05 14:44:12,062 INFO spawned: 'myserver' with pid 11005
+2016-02-05 14:44:12,138 DEBG 'myserver' stderr output:
+2016-02-05 14:44:12 [11005] [INFO] Starting gunicorn 17.5
+2016-02-05 14:44:12 [11005] [INFO] Listening at: http://0.0.0.0:80 (11005)
+2016-02-05 14:44:12 [11005] [INFO] Using worker: sync
+
+2016-02-05 14:44:12,139 DEBG 'myserver' stderr output:
+2016-02-05 14:44:12 [11010] [INFO] Booting worker with pid: 11010
+
+2016-02-05 14:44:12,174 DEBG 'myserver' stderr output:
+2016-02-05 14:44:12 [11011] [INFO] Booting worker with pid: 11011
+
+2016-02-05 14:44:12,199 DEBG 'myserver' stderr output:
+2016-02-05 14:44:12 [11014] [INFO] Booting worker with pid: 11014
+
+2016-02-05 14:44:12,215 DEBG 'myserver' stderr output:
+2016-02-05 14:44:12 [11015] [INFO] Booting worker with pid: 11015
+
+2016-02-05 14:44:13,216 INFO success: myserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-02-05 14:44:13,860 DEBG 'myserver' stderr output:
+2016-02-05 14:44:13 [11010] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+
+2016-02-05 14:44:13,861 DEBG 'myserver' stderr output:
+2016-02-05 14:44:13 [11010] [INFO] Worker exiting (pid: 11010)
+
+2016-02-05 14:44:13,861 DEBG 'myserver' stdout output:
+LogisticRegression(C=0.15, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+2016-02-05 14:44:13,987 DEBG 'myserver' stderr output:
+Exception 
+2016-02-05 14:44:13,987 DEBG 'myserver' stderr output:
+TypeError
+2016-02-05 14:44:13,987 DEBG 'myserver' stderr output:
+: 
+2016-02-05 14:44:13,987 DEBG 'myserver' stderr output:
+TypeError("'NoneType' object is not callable",)
+2016-02-05 14:44:13,987 DEBG 'myserver' stderr output:
+ in 
+2016-02-05 14:44:13,987 DEBG 'myserver' stderr output:
+<bound method UmfpackContext.new_del of <scipy.sparse.linalg.dsolve.umfpack.umfpack.UmfpackContext object at 0x7fb2ce3bab50>>
+2016-02-05 14:44:13,987 DEBG 'myserver' stderr output:
+ ignored
+
+2016-02-05 14:44:14,003 DEBG 'myserver' stderr output:
+2016-02-05 14:44:14 [11011] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+
+2016-02-05 14:44:14,003 DEBG 'myserver' stderr output:
+2016-02-05 14:44:14 [11011] [INFO] Worker exiting (pid: 11011)
+
+2016-02-05 14:44:14,003 DEBG 'myserver' stdout output:
+LogisticRegression(C=0.15, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+2016-02-05 14:44:14,026 DEBG 'myserver' stderr output:
+2016-02-05 14:44:14 [11015] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+
+2016-02-05 14:44:14,032 DEBG 'myserver' stderr output:
+2016-02-05 14:44:14 [11014] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+
+2016-02-05 14:44:14,034 DEBG 'myserver' stderr output:
+2016-02-05 14:44:14 [11014] [INFO] Worker exiting (pid: 11014)
+
+2016-02-05 14:44:14,034 DEBG 'myserver' stdout output:
+LogisticRegression(C=0.15, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+2016-02-05 14:44:14,038 DEBG 'myserver' stderr output:
+2016-02-05 14:44:14 [11015] [INFO] Worker exiting (pid: 11015)
+
+2016-02-05 14:44:14,039 DEBG 'myserver' stdout output:
+LogisticRegression(C=0.15, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+2016-02-05 14:44:14,414 DEBG 'myserver' stderr output:
+2016-02-05 14:44:14 [11005] [INFO] Shutting down: Master
+2016-02-05 14:44:14 [11005] [INFO] Reason: Worker failed to boot.
+
+2016-02-05 14:44:14,417 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 139965329931584 for <Subprocess at 139965339007168 with name myserver in state RUNNING> (stderr)>
+2016-02-05 14:44:14,418 DEBG fd 6 closed, stopped monitoring <POutputDispatcher at 139965339008176 for <Subprocess at 139965339007168 with name myserver in state RUNNING> (stdout)>
+2016-02-05 14:44:14,418 INFO exited: myserver (exit status 3; not expected)
+2016-02-05 14:44:14,418 DEBG received SIGCLD indicating a child quit
+2016-02-05 14:44:15,420 INFO spawned: 'myserver' with pid 11029
+2016-02-05 14:44:15,496 DEBG 'myserver' stderr output:
+2016-02-05 14:44:15 [11029] [INFO] Starting gunicorn 17.5
+2016-02-05 14:44:15 [11029] [INFO] Listening at: http://0.0.0.0:80 (11029)
+2016-02-05 14:44:15 [11029] [INFO] Using worker: sync
+
+2016-02-05 14:44:15,497 DEBG 'myserver' stderr output:
+2016-02-05 14:44:15 [11034] [INFO] Booting worker with pid: 11034
+
+2016-02-05 14:44:15,579 DEBG 'myserver' stderr output:
+2016-02-05 14:44:15 [11037] [INFO] Booting worker with pid: 11037
+
+2016-02-05 14:44:15,599 DEBG 'myserver' stderr output:
+2016-02-05 14:44:15 [11038] [INFO] Booting worker with pid: 11038
+
+2016-02-05 14:44:15,643 DEBG 'myserver' stderr output:
+2016-02-05 14:44:15 [11039] [INFO] Booting worker with pid: 11039
+
+2016-02-05 14:44:16,644 INFO success: myserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-02-05 14:44:17,056 DEBG 'myserver' stderr output:
+2016-02-05 14:44:17 [11034] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+
+2016-02-05 14:44:17,057 DEBG 'myserver' stderr output:
+2016-02-05 14:44:17 [11034] [INFO] Worker exiting (pid: 11034)
+
+2016-02-05 14:44:17,057 DEBG 'myserver' stdout output:
+LogisticRegression(C=0.15, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+2016-02-05 14:44:17,182 DEBG 'myserver' stderr output:
+Exception 
+2016-02-05 14:44:17,183 DEBG 'myserver' stderr output:
+TypeError
+2016-02-05 14:44:17,183 DEBG 'myserver' stderr output:
+: 
+2016-02-05 14:44:17,183 DEBG 'myserver' stderr output:
+TypeError("'NoneType' object is not callable",)
+2016-02-05 14:44:17,183 DEBG 'myserver' stderr output:
+ in 
+2016-02-05 14:44:17,183 DEBG 'myserver' stderr output:
+<bound method UmfpackContext.new_del of <scipy.sparse.linalg.dsolve.umfpack.umfpack.UmfpackContext object at 0x7f6947fe9b50>>
+2016-02-05 14:44:17,183 DEBG 'myserver' stderr output:
+ ignored
+
+2016-02-05 14:44:17,329 DEBG 'myserver' stderr output:
+2016-02-05 14:44:17 [11038] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+
+2016-02-05 14:44:17,330 DEBG 'myserver' stderr output:
+2016-02-05 14:44:17 [11037] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+
+2016-02-05 14:44:17,330 DEBG 'myserver' stderr output:
+2016-02-05 14:44:17 [11037] [INFO] Worker exiting (pid: 11037)
+
+2016-02-05 14:44:17,331 DEBG 'myserver' stdout output:
+LogisticRegression(C=0.15, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+2016-02-05 14:44:17,338 DEBG 'myserver' stderr output:
+2016-02-05 14:44:17 [11038] [INFO] Worker exiting (pid: 11038)
+
+2016-02-05 14:44:17,338 DEBG 'myserver' stdout output:
+LogisticRegression(C=0.15, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+2016-02-05 14:44:17,397 DEBG 'myserver' stderr output:
+2016-02-05 14:44:17 [11039] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+  File "/home/ubuntu/PicSiftApp/PicSift/__init__.py", line 3, in <module>
+    from PicSift import views
+  File "/home/ubuntu/PicSiftApp/PicSift/views.py", line 31, in <module>
+    @app.route("/examples")
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 984, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: front_page
+
+2016-02-05 14:44:17,402 DEBG 'myserver' stderr output:
+2016-02-05 14:44:17 [11039] [INFO] Worker exiting (pid: 11039)
+
+2016-02-05 14:44:17,402 DEBG 'myserver' stdout output:
+LogisticRegression(C=0.15, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+2016-02-05 14:44:17,422 DEBG 'myserver' stderr output:
+Exception 
+2016-02-05 14:44:17,746 DEBG 'myserver' stderr output:
+2016-02-05 14:44:17 [11029] [INFO] Shutting down: Master
+
+2016-02-05 14:44:17,750 DEBG 'myserver' stderr output:
+2016-02-05 14:44:17 [11029] [INFO] Reason: Worker failed to boot.
+
+2016-02-05 14:44:17,752 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 139965329931800 for <Subprocess at 139965339007168 with name myserver in state RUNNING> (stderr)>
+2016-02-05 14:44:17,752 DEBG fd 6 closed, stopped monitoring <POutputDispatcher at 139965339008536 for <Subprocess at 139965339007168 with name myserver in state RUNNING> (stdout)>
+2016-02-05 14:44:17,752 INFO exited: myserver (exit status 3; not expected)
+2016-02-05 14:44:17,752 DEBG received SIGCLD indicating a child quit
+2016-02-05 14:44:18,754 INFO spawned: 'myserver' with pid 11053
+2016-02-05 14:44:18,832 DEBG 'myserver' stderr output:
+2016-02-05 14:44:18 [11053] [INFO] Starting gunicorn 17.5
+
+2016-02-05 14:44:18,833 DEBG 'myserver' stderr output:
+2016-02-05 14:44:18 [11053] [INFO] Listening at: http://0.0.0.0:80 (11053)
+2016-02-05 14:44:18 [11053] [INFO] Using worker: sync
+
+2016-02-05 14:44:18,834 DEBG 'myserver' stderr output:
+2016-02-05 14:44:18 [11058] [INFO] Booting worker with pid: 11058
+
+2016-02-05 14:44:18,873 DEBG 'myserver' stderr output:
+2016-02-05 14:44:18 [11059] [INFO] Booting worker with pid: 11059
+
+2016-02-05 14:44:18,943 DEBG 'myserver' stderr output:
+2016-02-05 14:44:18 [11062] [INFO] Booting worker with pid: 11062
+
+2016-02-05 14:44:19,040 DEBG 'myserver' stderr output:
+2016-02-05 14:44:19 [11065] [INFO] Booting worker with pid: 11065
+
+2016-02-05 14:44:20,042 INFO success: myserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-02-05 14:45:49,260 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:45:49,260 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:46:08,261 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:46:08,261 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:46:17,037 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:46:17,037 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:47:07,798 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:47:07,798 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:47:18,705 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:47:18,706 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:47:34,242 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:47:34,242 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:47:55,189 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:47:55,189 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:49:46,790 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:49:46,791 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:50:00,402 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:50:00,402 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:50:11,492 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:50:11,493 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:50:18,825 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:50:18,826 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:50:36,946 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:50:36,947 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:52:34,135 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:52:34,135 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:53:11,844 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:53:11,844 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:55:32,276 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:55:32,277 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:56:43,127 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:56:43,127 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:56:52,534 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 14:56:52,534 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 15:05:01,153 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 15:05:01,153 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:00:32,594 DEBG 'myserver' stderr output:
+2016-02-05 16:00:32 [11053] [CRITICAL] WORKER TIMEOUT (pid:11058)
+
+2016-02-05 16:00:32,599 DEBG 'myserver' stderr output:
+2016-02-05 16:00:32 [11053] [CRITICAL] WORKER TIMEOUT (pid:11058)
+
+2016-02-05 16:00:32,600 DEBG 'myserver' stderr output:
+2016-02-05 16:00:32 [11101] [INFO] Booting worker with pid: 11101
+
+2016-02-05 16:04:07,280 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:04:07,280 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:05:45,412 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:05:45,414 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:05:50,060 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:05:50,060 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:05:56,195 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:05:56,196 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:06:37,750 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:06:37,750 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:07:19,479 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:07:19,480 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:08:10,553 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:08:10,553 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:10:38,628 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:10:38,628 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:10:56,342 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:10:56,342 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:11:26,511 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:11:26,512 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:14:46,593 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:14:46,593 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:15:57,032 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:15:57,032 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:24:41,318 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:24:41,318 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:25:04,766 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:25:04,767 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:26:07,791 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:26:07,791 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:29:03,753 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:29:03,753 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:29:18,257 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:29:18,257 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:29:30,981 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:29:30,981 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:29:52,489 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:29:52,489 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:32:12,980 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:32:12,980 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:32:36,326 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:32:36,326 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:36:09,706 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:36:09,706 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:36:23,377 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:36:23,377 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:36:33,738 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:36:33,739 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:42:16,934 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:42:16,935 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:42:34,023 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:42:34,023 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:42:48,251 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:42:48,251 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:43:53,973 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:43:53,974 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:44:08,105 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:44:08,105 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:44:50,287 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:44:50,287 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:49:20,057 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:49:20,057 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:49:43,517 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:49:43,517 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:49:57,904 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:49:57,904 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:50:30,321 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 16:50:30,321 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:30:52,898 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:30:52,898 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:31:16,742 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:31:16,742 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:37:37,900 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:37:37,902 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:39:08,334 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:39:08,334 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:39:51,814 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:39:51,814 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:40:43,632 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:40:43,632 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:42:35,546 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:42:35,546 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:45:25,750 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:45:25,750 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:48:54,667 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:48:54,667 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:49:24,942 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:49:24,942 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:49:47,026 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:49:47,026 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:50:20,451 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:50:20,451 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:51:08,150 DEBG 'myserver' stderr output:
+2016-02-05 17:51:08 [11065] [ERROR] Error processing request.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 87, in handle
+    req = six.next(parser)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/parser.py", line 39, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 152, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 49, in __init__
+    unused = self.parse(self.unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 167, in parse
+    line, rbuf = self.read_line(unreader, buf, self.limit_request_line)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 217, in read_line
+    self.get_data(unreader, buf)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 155, in get_data
+    data = unreader.read()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 38, in read
+    d = self.chunk()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+error: [Errno 104] Connection reset by peer
+
+2016-02-05 17:51:11,432 DEBG 'myserver' stderr output:
+2016-02-05 17:51:11 [11059] [ERROR] Error processing request.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 87, in handle
+    req = six.next(parser)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/parser.py", line 39, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 152, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 49, in __init__
+    unused = self.parse(self.unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 167, in parse
+    line, rbuf = self.read_line(unreader, buf, self.limit_request_line)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 217, in read_line
+    self.get_data(unreader, buf)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 155, in get_data
+    data = unreader.read()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 38, in read
+    d = self.chunk()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+error: [Errno 104] Connection reset by peer
+
+2016-02-05 17:51:18,763 DEBG 'myserver' stderr output:
+2016-02-05 17:51:18 [11065] [ERROR] Error processing request.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 87, in handle
+    req = six.next(parser)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/parser.py", line 39, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 152, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 49, in __init__
+    unused = self.parse(self.unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 167, in parse
+    line, rbuf = self.read_line(unreader, buf, self.limit_request_line)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 217, in read_line
+    self.get_data(unreader, buf)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 155, in get_data
+    data = unreader.read()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 38, in read
+    d = self.chunk()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+error: [Errno 104] Connection reset by peer
+
+2016-02-05 17:51:21,926 DEBG 'myserver' stderr output:
+2016-02-05 17:51:21 [11101] [ERROR] Error processing request.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 87, in handle
+    req = six.next(parser)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/parser.py", line 39, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 152, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 49, in __init__
+    unused = self.parse(self.unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 167, in parse
+    line, rbuf = self.read_line(unreader, buf, self.limit_request_line)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 217, in read_line
+    self.get_data(unreader, buf)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 155, in get_data
+    data = unreader.read()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 38, in read
+    d = self.chunk()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+error: [Errno 104] Connection reset by peer
+
+2016-02-05 17:51:21,927 DEBG 'myserver' stderr output:
+2016-02-05 17:51:21 [11062] [ERROR] Error processing request.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 87, in handle
+    req = six.next(parser)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/parser.py", line 39, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 152, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 49, in __init__
+    unused = self.parse(self.unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 167, in parse
+    line, rbuf = self.read_line(unreader, buf, self.limit_request_line)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 217, in read_line
+    self.get_data(unreader, buf)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 155, in get_data
+    data = unreader.read()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 38, in read
+    d = self.chunk()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+error: [Errno 104] Connection reset by peer
+
+2016-02-05 17:51:25,211 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:51:25,211 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:52:23,110 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:52:23,111 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:52:52,647 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 17:52:52,648 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 18:03:29,027 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 18:03:29,027 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 18:05:11,467 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 18:05:11,467 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 18:05:22,912 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 18:05:22,912 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 20:26:24,921 DEBG 'myserver' stderr output:
+2016-02-05 20:26:24 [11101] [ERROR] Error processing request.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 87, in handle
+    req = six.next(parser)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/parser.py", line 39, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 152, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 49, in __init__
+    unused = self.parse(self.unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 167, in parse
+    line, rbuf = self.read_line(unreader, buf, self.limit_request_line)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 217, in read_line
+    self.get_data(unreader, buf)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 155, in get_data
+    data = unreader.read()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 38, in read
+    d = self.chunk()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+error: [Errno 104] Connection reset by peer
+
+2016-02-05 20:26:24,926 DEBG 'myserver' stderr output:
+2016-02-05 20:26:24 [11065] [ERROR] Error processing request.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 87, in handle
+    req = six.next(parser)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/parser.py", line 39, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 152, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 49, in __init__
+    unused = self.parse(self.unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 167, in parse
+    line, rbuf = self.read_line(unreader, buf, self.limit_request_line)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 217, in read_line
+    self.get_data(unreader, buf)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 155, in get_data
+    data = unreader.read()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 38, in read
+    d = self.chunk()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+error: [Errno 104] Connection reset by peer
+
+2016-02-05 20:26:24,935 DEBG 'myserver' stderr output:
+2016-02-05 20:26:24 [11059] [ERROR] Error processing request.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 87, in handle
+    req = six.next(parser)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/parser.py", line 39, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 152, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 49, in __init__
+    unused = self.parse(self.unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 167, in parse
+    line, rbuf = self.read_line(unreader, buf, self.limit_request_line)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 217, in read_line
+    self.get_data(unreader, buf)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 155, in get_data
+    data = unreader.read()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 38, in read
+    d = self.chunk()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+error: [Errno 104] Connection reset by peer
+
+2016-02-05 20:26:41,871 DEBG 'myserver' stderr output:
+2016-02-05 20:26:41 [11065] [ERROR] Error processing request.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 87, in handle
+    req = six.next(parser)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/parser.py", line 39, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 152, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 49, in __init__
+    unused = self.parse(self.unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 167, in parse
+    line, rbuf = self.read_line(unreader, buf, self.limit_request_line)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 217, in read_line
+    self.get_data(unreader, buf)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 155, in get_data
+    data = unreader.read()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 38, in read
+    d = self.chunk()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+error: [Errno 104] Connection reset by peer
+
+2016-02-05 20:26:54,008 DEBG 'myserver' stderr output:
+2016-02-05 20:26:54 [11053] [CRITICAL] WORKER TIMEOUT (pid:11062)
+
+2016-02-05 20:26:54,012 DEBG 'myserver' stderr output:
+2016-02-05 20:26:54 [11053] [CRITICAL] WORKER TIMEOUT (pid:11062)
+
+2016-02-05 20:26:54,013 DEBG 'myserver' stderr output:
+2016-02-05 20:26:54 [11695] [INFO] Booting worker with pid: 11695
+
+2016-02-05 20:38:20,976 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 20:38:20,977 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 20:38:43,959 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 20:38:43,959 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 20:48:00,638 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 20:48:00,638 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 20:50:09,178 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 20:50:09,178 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 20:54:31,103 DEBG 'myserver' stderr output:
+2016-02-05 20:54:31 [11053] [CRITICAL] WORKER TIMEOUT (pid:11695)
+
+2016-02-05 20:54:31,107 DEBG 'myserver' stderr output:
+2016-02-05 20:54:31 [11053] [CRITICAL] WORKER TIMEOUT (pid:11059)
+
+2016-02-05 20:54:31,111 DEBG 'myserver' stderr output:
+2016-02-05 20:54:31 [11053] [CRITICAL] WORKER TIMEOUT (pid:11065)
+
+2016-02-05 20:54:31,114 DEBG 'myserver' stderr output:
+2016-02-05 20:54:31 [11053] [CRITICAL] WORKER TIMEOUT (pid:11101)
+
+2016-02-05 20:54:31,118 DEBG 'myserver' stderr output:
+2016-02-05 20:54:31 [11053] [CRITICAL] WORKER TIMEOUT (pid:11065)
+
+2016-02-05 20:54:31,120 DEBG 'myserver' stderr output:
+2016-02-05 20:54:31 [11773] [INFO] Booting worker with pid: 11773
+
+2016-02-05 20:54:31,123 DEBG 'myserver' stderr output:
+2016-02-05 20:54:31 [11774] [INFO] Booting worker with pid: 11774
+
+2016-02-05 20:54:31,163 DEBG 'myserver' stderr output:
+2016-02-05 20:54:31 [11775] [INFO] Booting worker with pid: 11775
+
+2016-02-05 20:54:31,215 DEBG 'myserver' stderr output:
+2016-02-05 20:54:31 [11778] [INFO] Booting worker with pid: 11778
+
+2016-02-05 20:55:03,353 DEBG 'myserver' stderr output:
+2016-02-05 20:55:03 [11053] [CRITICAL] WORKER TIMEOUT (pid:11773)
+2016-02-05 20:55:03 [11053] [CRITICAL] WORKER TIMEOUT (pid:11774)
+
+2016-02-05 20:55:03,356 DEBG 'myserver' stderr output:
+2016-02-05 20:55:03 [11053] [CRITICAL] WORKER TIMEOUT (pid:11773)
+2016-02-05 20:55:03 [11053] [CRITICAL] WORKER TIMEOUT (pid:11774)
+2016-02-05 20:55:03 [11053] [CRITICAL] WORKER TIMEOUT (pid:11774)
+
+2016-02-05 20:55:03,357 DEBG 'myserver' stderr output:
+2016-02-05 20:55:03 [11791] [INFO] Booting worker with pid: 11791
+
+2016-02-05 20:55:03,363 DEBG 'myserver' stderr output:
+2016-02-05 20:55:03 [11792] [INFO] Booting worker with pid: 11792
+
+2016-02-05 22:19:10,003 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 22:19:10,003 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 22:19:28,501 DEBG 'myserver' stderr output:
+2016-02-05 22:19:28 [11053] [CRITICAL] WORKER TIMEOUT (pid:11778)
+
+2016-02-05 22:19:28,504 DEBG 'myserver' stderr output:
+2016-02-05 22:19:28 [11053] [CRITICAL] WORKER TIMEOUT (pid:11792)
+
+2016-02-05 22:19:28,508 DEBG 'myserver' stderr output:
+2016-02-05 22:19:28 [11053] [CRITICAL] WORKER TIMEOUT (pid:11775)
+
+2016-02-05 22:19:28,509 DEBG 'myserver' stderr output:
+2016-02-05 22:19:28 [11053] [CRITICAL] WORKER TIMEOUT (pid:11778)
+
+2016-02-05 22:19:28,510 DEBG 'myserver' stderr output:
+2016-02-05 22:19:28 [12026] [INFO] Booting worker with pid: 12026
+
+2016-02-05 22:19:28,515 DEBG 'myserver' stderr output:
+2016-02-05 22:19:28 [12027] [INFO] Booting worker with pid: 12027
+
+2016-02-05 22:19:28,579 DEBG 'myserver' stderr output:
+2016-02-05 22:19:28 [12028] [INFO] Booting worker with pid: 12028
+
+2016-02-05 22:19:40,674 DEBG 'myserver' stderr output:
+2016-02-05 22:19:40 [11053] [CRITICAL] WORKER TIMEOUT (pid:11791)
+
+2016-02-05 22:19:40,677 DEBG 'myserver' stderr output:
+2016-02-05 22:19:40 [11053] [CRITICAL] WORKER TIMEOUT (pid:11791)
+
+2016-02-05 22:19:40,678 DEBG 'myserver' stderr output:
+2016-02-05 22:19:40 [12038] [INFO] Booting worker with pid: 12038
+
+2016-02-05 22:19:51,351 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 22:19:51,351 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 22:19:59,452 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 22:19:59,452 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 22:39:55,998 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 22:39:55,998 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-05 22:40:12,237 DEBG 'myserver' stderr output:
+2016-02-05 22:40:12 [11053] [CRITICAL] WORKER TIMEOUT (pid:12038)
+
+2016-02-05 22:40:12,240 DEBG 'myserver' stderr output:
+2016-02-05 22:40:12 [11053] [CRITICAL] WORKER TIMEOUT (pid:12026)
+
+2016-02-05 22:40:12,243 DEBG 'myserver' stderr output:
+2016-02-05 22:40:12 [11053] [CRITICAL] WORKER TIMEOUT (pid:12028)
+
+2016-02-05 22:40:12,245 DEBG 'myserver' stderr output:
+2016-02-05 22:40:12 [11053] [CRITICAL] WORKER TIMEOUT (pid:12038)
+2016-02-05 22:40:12 [11053] [CRITICAL] WORKER TIMEOUT (pid:12026)
+2016-02-05 22:40:12 [11053] [CRITICAL] WORKER TIMEOUT (pid:12028)
+2016-02-05 22:40:12 [11053] [CRITICAL] WORKER TIMEOUT (pid:12038)
+2016-02-05 22:40:12 [11053] [CRITICAL] WORKER TIMEOUT (pid:12028)
+
+2016-02-05 22:40:12,246 DEBG 'myserver' stderr output:
+2016-02-05 22:40:12 [11053] [CRITICAL] WORKER TIMEOUT (pid:12038)
+
+2016-02-05 22:40:12,247 DEBG 'myserver' stderr output:
+2016-02-05 22:40:12 [12099] [INFO] Booting worker with pid: 12099
+
+2016-02-05 22:40:12,251 DEBG 'myserver' stderr output:
+2016-02-05 22:40:12 [12100] [INFO] Booting worker with pid: 12100
+
+2016-02-05 22:40:12,299 DEBG 'myserver' stderr output:
+2016-02-05 22:40:12 [12101] [INFO] Booting worker with pid: 12101
+
+2016-02-05 22:40:26,414 DEBG 'myserver' stderr output:
+2016-02-05 22:40:26 [11053] [CRITICAL] WORKER TIMEOUT (pid:12027)
+
+2016-02-05 22:40:26,417 DEBG 'myserver' stderr output:
+2016-02-05 22:40:26 [11053] [CRITICAL] WORKER TIMEOUT (pid:12027)
+
+2016-02-05 22:40:26,418 DEBG 'myserver' stderr output:
+2016-02-05 22:40:26 [12113] [INFO] Booting worker with pid: 12113
+
+2016-02-05 22:53:16,470 DEBG 'myserver' stderr output:
+2016-02-05 22:53:16 [12099] [ERROR] Error processing request.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 87, in handle
+    req = six.next(parser)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/parser.py", line 39, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 152, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 49, in __init__
+    unused = self.parse(self.unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 167, in parse
+    line, rbuf = self.read_line(unreader, buf, self.limit_request_line)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 217, in read_line
+    self.get_data(unreader, buf)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 155, in get_data
+    data = unreader.read()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 38, in read
+    d = self.chunk()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+error: [Errno 104] Connection reset by peer
+
+2016-02-05 22:53:30,914 DEBG 'myserver' stderr output:
+2016-02-05 22:53:30 [12099] [ERROR] Error processing request.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 87, in handle
+    req = six.next(parser)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/parser.py", line 39, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 152, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 49, in __init__
+    unused = self.parse(self.unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 167, in parse
+    line, rbuf = self.read_line(unreader, buf, self.limit_request_line)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 217, in read_line
+    self.get_data(unreader, buf)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 155, in get_data
+    data = unreader.read()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 38, in read
+    d = self.chunk()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+error: [Errno 104] Connection reset by peer
+2016-02-05 22:53:30 [12113] [ERROR] Error processing request.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 87, in handle
+    req = six.next(parser)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/parser.py", line 39, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 152, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 49, in __init__
+    unused = self.parse(self.unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 167, in parse
+    line, rbuf = self.read_line(unreader, buf, self.limit_request_line)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 217, in read_line
+    self.get_data(unreader, buf)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 155, in get_data
+    data = unreader.read()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 38, in read
+    d = self.chunk()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+error: [Errno 104] Connection reset by peer
+
+2016-02-05 22:53:33,411 DEBG 'myserver' stderr output:
+2016-02-05 22:53:33 [11053] [CRITICAL] WORKER TIMEOUT (pid:12101)
+
+2016-02-05 22:53:33,412 DEBG 'myserver' stderr output:
+2016-02-05 22:53:33 [11053] [CRITICAL] WORKER TIMEOUT (pid:12101)
+
+2016-02-05 22:53:33,412 DEBG 'myserver' stderr output:
+2016-02-05 22:53:33 [12156] [INFO] Booting worker with pid: 12156
+
+2016-02-05 22:53:42,466 DEBG 'myserver' stderr output:
+2016-02-05 22:53:42 [11053] [CRITICAL] WORKER TIMEOUT (pid:12100)
+
+2016-02-05 22:53:42,467 DEBG 'myserver' stderr output:
+2016-02-05 22:53:42 [11053] [CRITICAL] WORKER TIMEOUT (pid:12100)
+
+2016-02-05 22:53:42,468 DEBG 'myserver' stderr output:
+2016-02-05 22:53:42 [12160] [INFO] Booting worker with pid: 12160
+
+2016-02-06 01:13:06,854 DEBG 'myserver' stderr output:
+2016-02-06 01:13:06 [12156] [ERROR] Error processing request.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 87, in handle
+    req = six.next(parser)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/parser.py", line 39, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 152, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 49, in __init__
+    unused = self.parse(self.unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 167, in parse
+    line, rbuf = self.read_line(unreader, buf, self.limit_request_line)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 217, in read_line
+    self.get_data(unreader, buf)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 155, in get_data
+    data = unreader.read()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 38, in read
+    d = self.chunk()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+error: [Errno 104] Connection reset by peer
+
+2016-02-06 01:13:11,559 DEBG 'myserver' stderr output:
+2016-02-06 01:13:11 [12113] [ERROR] Error processing request.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 87, in handle
+    req = six.next(parser)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/parser.py", line 39, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 152, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 49, in __init__
+    unused = self.parse(self.unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 167, in parse
+    line, rbuf = self.read_line(unreader, buf, self.limit_request_line)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 217, in read_line
+    self.get_data(unreader, buf)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 155, in get_data
+    data = unreader.read()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 38, in read
+    d = self.chunk()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+error: [Errno 104] Connection reset by peer
+
+2016-02-06 01:13:17,110 DEBG 'myserver' stderr output:
+2016-02-06 01:13:17 [12099] [ERROR] Error processing request.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 87, in handle
+    req = six.next(parser)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/parser.py", line 39, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 152, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 49, in __init__
+    unused = self.parse(self.unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 167, in parse
+    line, rbuf = self.read_line(unreader, buf, self.limit_request_line)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 217, in read_line
+    self.get_data(unreader, buf)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 155, in get_data
+    data = unreader.read()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 38, in read
+    d = self.chunk()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+error: [Errno 104] Connection reset by peer
+
+2016-02-06 01:13:19,915 DEBG 'myserver' stderr output:
+2016-02-06 01:13:19 [12113] [ERROR] Error processing request.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 87, in handle
+    req = six.next(parser)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/parser.py", line 39, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.req_count)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 152, in __init__
+    super(Request, self).__init__(cfg, unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 49, in __init__
+    unused = self.parse(self.unreader)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 167, in parse
+    line, rbuf = self.read_line(unreader, buf, self.limit_request_line)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 217, in read_line
+    self.get_data(unreader, buf)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/message.py", line 155, in get_data
+    data = unreader.read()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 38, in read
+    d = self.chunk()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/unreader.py", line 65, in chunk
+    return self.sock.recv(self.mxchunk)
+error: [Errno 104] Connection reset by peer
+
+2016-02-06 01:13:50,663 DEBG 'myserver' stderr output:
+2016-02-06 01:13:50 [11053] [CRITICAL] WORKER TIMEOUT (pid:12099)
+
+2016-02-06 01:13:50,664 DEBG 'myserver' stderr output:
+2016-02-06 01:13:50 [11053] [CRITICAL] WORKER TIMEOUT (pid:12099)
+
+2016-02-06 01:13:50,665 DEBG 'myserver' stderr output:
+2016-02-06 01:13:50 [12359] [INFO] Booting worker with pid: 12359
+
+2016-02-06 01:27:26,520 DEBG 'myserver' stderr output:
+2016-02-06 01:27:26 [12366] [INFO] Booting worker with pid: 12366
+
+2016-02-06 01:34:53,516 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-06 01:34:53,516 DEBG 'myserver' stderr output:
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/validation.py:386: DeprecationWarning: Passing 1d arrays as data is deprecated in 0.17 and willraise ValueError in 0.19. Reshape your data either using X.reshape(-1, 1) if your data has a single feature or X.reshape(1, -1) if it contains a single sample.
+  DeprecationWarning)
+
+2016-02-06 01:35:11,208 WARN received SIGTERM indicating exit request
+2016-02-06 01:35:11,209 DEBG killing myserver (pid 11053) with signal SIGTERM
+2016-02-06 01:35:11,209 INFO waiting for myserver to die
+2016-02-06 01:35:11,215 DEBG 'myserver' stderr output:
+2016-02-06 01:35:11 [11053] [INFO] Handling signal: term
+2016-02-06 01:35:11 [12366] [INFO] Worker exiting (pid: 12366)
+
+2016-02-06 01:35:11,218 DEBG 'myserver' stdout output:
+LogisticRegression(C=0.15, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+2016-02-06 01:35:11,218 DEBG 'myserver' stderr output:
+2016-02-06 01:35:11 [12113] [INFO] Worker exiting (pid: 12113)
+
+2016-02-06 01:35:11,218 DEBG 'myserver' stdout output:
+LogisticRegression(C=0.15, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+2016-02-06 01:35:11,222 DEBG 'myserver' stderr output:
+2016-02-06 01:35:11 [12156] [INFO] Worker exiting (pid: 12156)
+
+2016-02-06 01:35:11,222 DEBG 'myserver' stdout output:
+LogisticRegression(C=0.15, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+2016-02-06 01:35:11,230 DEBG 'myserver' stderr output:
+2016-02-06 01:35:11 [12160] [INFO] Worker exiting (pid: 12160)
+
+2016-02-06 01:35:11,230 DEBG 'myserver' stdout output:
+LogisticRegression(C=0.15, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=-1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+<type 'unicode'>
+
+2016-02-06 01:35:11,338 DEBG 'myserver' stderr output:
+2016-02-06 01:35:11 [11053] [INFO] Shutting down: Master
+
+2016-02-06 01:35:11,344 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 139965329931872 for <Subprocess at 139965339007168 with name myserver in state STOPPING> (stderr)>
+2016-02-06 01:35:11,344 DEBG fd 6 closed, stopped monitoring <POutputDispatcher at 139965339007528 for <Subprocess at 139965339007168 with name myserver in state STOPPING> (stdout)>
+2016-02-06 01:35:11,344 INFO stopped: myserver (exit status 0)
+2016-02-06 01:35:11,344 DEBG received SIGCLD indicating a child quit
